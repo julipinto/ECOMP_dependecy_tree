@@ -10,28 +10,57 @@ Essa é a árvore de dependências do curso de ecomp. Você pode se guiar com el
 
 ## Como ler a árvore
 
-### Semestre
+- Os componentes mais ao topo, sem nenhuma seta anterior, não tem pré-requisitos.
 
-{c:ff3333}[fa=circle /]{/c} 1° semestre
-{c:ff9933}[fa=circle /]{/c} 2° semestre
-{c:ffff33}[fa=circle /]{/c} 3° semestre
-{c:99ff33}[fa=circle /]{/c} 4° semestre
-{c:33ffff}[fa=circle /]{/c} 5° semestre
-{c:66b2ff}[fa=circle /]{/c} 6° semestre
-{c:3333ff}[fa=circle /]{/c} 7° semestre
-{c:9933ff}[fa=circle /]{/c} 8° semestre
-{c:ff33ff}[fa=circle /]{/c} 9° semestre
-{c:ff99cc}[fa=circle /]{/c} 10° semestre
+- Uma matéria com algum requisito tem a matéria que é requisito apontando uma seta para ela.
+
+- As setas vermelhas são usadas só para melhor visualização quando tem crusamento de setas.
+
+- Algumas matérias especiais precisam de uma porcentagem da grade para estar disponível. É possível ver elas ao canto superior direito da árvore em vermelho, e em cada delas tem as instruções necessárias.
+
+- As matérias optativas estão em branco permitindo quem imprimir usar o espaço como quiser.
+
+### Semestres
+
+![Diagrama](/images/semestres.png)
 
 ## Pontuação das matérias
 
 Cada matéria apresenta um score a direita que vai dizer o impacto que ela tem nas matérias futuras.
 Uma matéria, por exemplo, que não tenha nenhuma outra que dependa dela fica com o score 1
+
 ![Diagrama](/images/etica.png)
 
 Já uma matéria vai term quem dependa dela vai constar como a somatória de quantas matérias ela vai impactar + 1 que seria da própria matéria
+
 ![Diagrama](/images/so.png)
+
+> Uma matéria de pontuação 1 por exemplo não necessariamente significa que não é uma matéria importante. Lembre-se que você precisa de todas as matérias para formar.
 
 ## Como contribuir nesse projeto
 
+- Faça um fork do repositório
+- Crie uma branch contendo a modificação que você quer fazer
+
+### Contribuindo na árvore
+
+- Abra o projeto na pasta `src/dependency_tree.drawio` no site [Draw.io](https://app.diagrams.net/) com o o seu fork do projeto na pasta. Você precisa logar com sua conta do github no site e clicar em "Abrir diagrama existente"
+- Faça as modificações e commite
+- Faça um pull request
+
+### Contribuindo na documentação
+
+- Clone o repositório em sua máquina, faça suas modificações e peça um pull request
+
+> Você também pode abrir uma issue relatando um erro ou dando alguma sugestão
+
 ## Como fazer a impressão da árvore
+
+Você pode abrir o projeto no draw.io e fazer a impressão por lá
+
+Também está sendo disponibilizada o pdf da árvore na pasta `src/dependency_tree.drawio`
+
+## Como fazer modificações personalizadas
+
+- Siga os passos para contribuição na árvore
+- Seja criativo e ajuste como quiser 😉
