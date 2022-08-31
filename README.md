@@ -4,7 +4,7 @@
 
 ### Resolução 124/2020
 
-![Diagrama](/images/diagrama.jpg)
+![Diagrama](/images/dependency_tree.jpg)
 
 Essa é a árvore de dependências do curso de ecomp. Você pode se guiar com ela para conseguir um aproveitamento melhor das matérias.
 
@@ -58,7 +58,7 @@ Já uma matéria vai term quem dependa dela vai constar como a somatória de qua
 
 Você pode abrir o projeto no draw.io e fazer a impressão por lá
 
-Também está sendo disponibilizada o pdf da árvore na pasta `src/dependency_tree.drawio`
+Também está sendo disponibilizada o pdf da árvore na pasta `src/dependency_tree.pdf`
 
 ## Como fazer modificações personalizadas
 
