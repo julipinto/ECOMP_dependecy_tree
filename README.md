@@ -14,9 +14,9 @@ Essa é a árvore de dependências do curso de ecomp. Você pode se guiar com el
 
 - Uma matéria com algum requisito tem a matéria que é requisito apontando uma seta para ela.
 
-- As setas vermelhas são usadas só para melhor visualização quando tem crusamento de setas.
+- As setas vermelhas são usadas só para melhor visualização quando tem cruzamento de setas.
 
-- Algumas matérias especiais precisam de uma porcentagem da grade para estar disponível. É possível ver elas ao canto superior direito da árvore em vermelho, e em cada delas tem as instruções necessárias.
+- Algumas matérias especiais precisam de uma porcentagem da grade para estar disponível. É possível ver elas ao canto superior direito da árvore em vermelho, e em cada uma delas tem as instruções necessárias.
 
 - As matérias optativas estão em branco permitindo quem imprimir usar o espaço como quiser.
 
@@ -31,7 +31,7 @@ Uma matéria, por exemplo, que não tenha nenhuma outra que dependa dela fica co
 
 ![Diagrama](/images/etica.png)
 
-Já uma matéria vai term quem dependa dela vai constar como a somatória de quantas matérias ela vai impactar + 1 que seria da própria matéria
+Já uma matéria que tenha quem dependa dela vai constar como a somatória de quantas matérias ela vai impactar + 1 que seria da própria matéria
 
 ![Diagrama](/images/so.png)
 
