@@ -31,7 +31,7 @@ Uma matéria, por exemplo, que não tenha nenhuma outra que dependa dela fica co
 
 ![Diagrama](/images/etica.png)
 
-Já uma matéria vai term quem dependa dela vai constar como a somatória de quantas matérias ela vai impactar + 1 que seria da própria matéria
+Já uma matéria que tenha quem dependa dela vai constar como a somatória de quantas matérias ela vai impactar + 1 que seria da própria matéria
 
 ![Diagrama](/images/so.png)
 
