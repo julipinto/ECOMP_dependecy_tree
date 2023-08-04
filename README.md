@@ -11,7 +11,13 @@ Olá! Essa é a árvore de dependências do curso de ECOMP. Nela é mostrado a r
 A documentação abaixo explica como a árvore deve ser lida, como você pode contribuir no projeto e como conseguir uma cópia a ser impressa caso prefira.
 ```
 
-### Resolução 124/2020
+### Versões disponíveis da árvore
+
+- Resolução CONSEPE 073/2023 (Novo) [aqui](/src/CONSEPE%20073_2023/)
+
+- Resolução CONSEPE 124/2020 [aqui](/src/CONSEPE%20124_2020/)
+
+### Resolução 073/2023
 
 ![Diagrama](/images/dependency_tree.jpg)
 
@@ -19,22 +25,22 @@ A documentação abaixo explica como a árvore deve ser lida, como você pode co
 
 ### Matérias
 
-<img align="right" src="images/etica.png" alt="MarineGEO circle logo"/>
+<img align="right" width=50% src="images/etica.png" alt="MarineGEO circle logo"/>
 
 A árvore é composta pelas matérias da grade curricular de ECOMP. Cada matéria é representada por um card de bordas arredondadas com as informações da matéria.
 Nela consta:
 
 - Carga horária da matéria (ex.: 60h)
-- Código da matéria (ex.: EXA890)
+- Código da matéria (ex.: EXA615)
 - Nome da matéria (ex.: Ética em Computação)
-- Código de cor do semestre (explicação abaixo)
-- Score da matéria (explicação abaixo)
+- Código de cor do semestre (explicação [aqui](README.md/#esquema-de-cores-dos-semestres))
+- Score da matéria (explicação [aqui](README.md/#pontuação-das-matérias))
 
 ### Regras da árvore
 
-- Os componentes mais ao topo, sem nenhuma seta anterior, não tem pré-requisitos.
+- Os componentes mais ao topo, sem nenhuma seta anterior apontando para eles, não tem pré-requisitos.
 
-- Uma matéria com algum requisito tem a matéria que é requisito apontando uma seta para ela (ex.: A matéria de `Cálculo D e I 1` tem como dependência `Introdução ao Cálculo`, por isso `Introdução ao Cálculo` → `Cálculo D e I 1` ).
+- Uma matéria com algum requisito tem a matéria que é requisito apontando uma seta para ela (ex.: A matéria de `Cálculo D e I 1` tem como dependência `Introdução ao Cálculo`, por isso `Introdução ao Cálculo` → `Cálculo D e I 1`).
 
 - As setas vermelhas são usadas só para melhor visualização quando há cruzamento de setas.
 
@@ -44,7 +50,7 @@ Nela consta:
 
 ### Esquema de cores dos semestres
 
-O esquema de cores, como já dito, é mostrado no card da matéria
+O esquema de cores é mostrado no canto superior esquerdo de cada card, demonstrando o semestre segundo o fluxograma regular do curso.
 
 ![Diagrama](/images/semestres.png)
 
