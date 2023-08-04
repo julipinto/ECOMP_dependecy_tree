@@ -1,26 +1,32 @@
-<p align="center">
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-<img src="images/uefs.png" alt="MarineGEO circle logo" style="height: 150px; margin: 0 auto"/>
+
+<h1 align="center">Árvore de dependências do curso de Bacharelado em Engenharia da Computação</h1>
+
+<p align="center">
+  <img src="images/uefs.png" alt="MarineGEO circle logo" style="height: 150px; margin: 0 auto"/>
 </p>
 
 <h2 align="center">Universidade Estadual de feira de Santana - UEFS</h2>
-<h1 align="center">Árvore de dependências do curso de Bacharelado em Engenharia da Computação</h1>
 
-```
-Olá! Essa é a árvore de dependências do curso de ECOMP. Nela é mostrado a relação entre as 55 matérias necessárias para obter a formação completa como bacharel em Engenharia da Computação pela Universidade Estadual de Feira de Santana. Você pode se guiar com ela para conseguir um aproveitamento melhor das matérias durante o curso.
+## Introdução
 
-A documentação abaixo explica como a árvore deve ser lida, como você pode contribuir no projeto e como conseguir uma cópia a ser impressa caso prefira.
-```
+Olá! Seja bem-vindo à Árvore de Dependências do Curso de Bacharelado em Engenharia da Computação (ECOMP) da Universidade Estadual de Feira de Santana (UEFS). Essa árvore representa a relação entre as 55 matérias necessárias para concluir a formação como bacharel em Engenharia da Computação.
 
-### Versões disponíveis da árvore
+## Aproveitamento do Curso
 
-- Resolução CONSEPE 073/2023 (Novo) [aqui](/src/CONSEPE%20073_2023/)
+A árvore de dependências foi criada para auxiliar os alunos a obter um melhor aproveitamento das matérias durante o curso. Ela ajuda a entender quais matérias têm pré-requisitos e como as disciplinas se relacionam, permitindo um planejamento mais eficiente para uma trajetória acadêmica bem-sucedida.
+
+## Versões Disponíveis
+
+- Resolução CONSEPE 073/2023 `(Novo)` [aqui](/src/CONSEPE%20073_2023/)
 
 - Resolução CONSEPE 124/2020 [aqui](/src/CONSEPE%20124_2020/)
 
-### Resolução 073/2023
+## Resolução 073/2023
 
 ![Diagrama](/images/dependency_tree.jpg)
 
@@ -30,8 +36,7 @@ A documentação abaixo explica como a árvore deve ser lida, como você pode co
 
 <img align="right" width=50% src="images/etica.png" alt="MarineGEO circle logo"/>
 
-A árvore é composta pelas matérias da grade curricular de ECOMP. Cada matéria é representada por um card de bordas arredondadas com as informações da matéria.
-Nela consta:
+A árvore é composta pelas matérias da grade curricular de ECOMP. Cada matéria é representada por um card de bordas arredondadas com informações detalhadas, como:
 
 - Carga horária da matéria (ex.: 60h)
 - Código da matéria (ex.: EXA615)
@@ -41,34 +46,33 @@ Nela consta:
 
 ### Regras da árvore
 
-- Os componentes mais ao topo, sem nenhuma seta anterior apontando para eles, não tem pré-requisitos.
+- Os componentes no topo, sem nenhuma seta apontando para eles, não têm pré-requisitos.
 
 - Uma matéria com algum requisito tem a matéria que é requisito apontando uma seta para ela (ex.: A matéria de `Cálculo D e I 1` tem como dependência `Introdução ao Cálculo`, por isso `Introdução ao Cálculo` → `Cálculo D e I 1`).
 
 - As setas vermelhas são usadas só para melhor visualização quando há cruzamento de setas.
 
-- Algumas matérias especiais precisam de uma porcentagem da grade para estar disponível. É possível ver elas ao canto superior direito da árvore como uma nota vermelha as instruções necessárias para desbloquear cada.
+- Algumas matérias especiais precisam de uma porcentagem da grade concluída para estar disponível. Essas matérias estão indicadas no canto superior direito da árvore com uma nota vermelha e as instruções necessárias para desbloqueá-las.
 
-- As matérias optativas estão em branco permitindo quem imprimir usar o espaço como quiser.
+- As matérias optativas estão em branco, permitindo que quem imprima utilize o espaço como quiser.
 
 ### Esquema de cores dos semestres
 
-O esquema de cores é mostrado no canto superior esquerdo de cada card, demonstrando o semestre segundo o fluxograma regular do curso.
+O esquema de cores, mostrado no canto superior esquerdo de cada card, demonstra o semestre de acordo com o fluxograma regular do curso.
 
 ![Diagrama](/images/semestres.png)
 
-## Pontuação das matérias
+### Pontuação das matérias
 
-Cada matéria apresenta um score no canto superior direito, qual vai dizer o impacto que ela tem nas matérias futuras.
-Uma matéria, por exemplo, que não tenha nenhuma outra que dependa dela fica com o score 1
+Cada matéria apresenta um score no canto superior direito, indicando o impacto que ela tem nas matérias futuras. Uma matéria que não tem nenhuma outra dependente dela tem um score de 1.
 
-![Diagrama](/images/etica.png)
+<img width=50% src="images/etica.png" alt="MarineGEO circle logo"/>
 
 Já uma matéria que tenha quem dependa dela vai constar como a somatória de quantas matérias ela vai impactar + 1 que seria da própria matéria
 
 ![Diagrama](/images/so.png)
 
-> Uma matéria de pontuação 1 por exemplo não necessariamente significa que não é uma matéria importante. Lembre-se que você precisa de todas as matérias para formar.
+> Uma matéria de pontuação 1 não necessariamente significa que não é importante. Lembre-se de que todas as matérias são necessárias para a formação completa.
 
 ## Como contribuir nesse projeto
 
@@ -98,7 +102,7 @@ Também está sendo disponibilizada o pdf da árvore na pasta `src/dependency_tr
 - Siga os passos para contribuição na árvore
 - Seja criativo e ajuste como quiser 😉
 
-## Contributors
+## Contribuidores
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
