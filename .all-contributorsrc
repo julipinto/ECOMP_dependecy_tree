@@ -15,6 +15,15 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "johnnyqdp",
+      "name": "Johnny Quest",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32348002?v=4",
+      "profile": "https://github.com/johnnyqdp",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
