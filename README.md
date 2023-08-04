@@ -1,4 +1,7 @@
 <p align="center">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 <img src="images/uefs.png" alt="MarineGEO circle logo" style="height: 150px; margin: 0 auto"/>
 </p>
 
@@ -98,6 +101,20 @@ Também está sendo disponibilizada o pdf da árvore na pasta `src/dependency_tr
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/AlanaSampaio"><img src="https://avatars.githubusercontent.com/u/71518539?v=4?s=100" width="100px;" alt="Alana Sampaio"/><br /><sub><b>Alana Sampaio</b></sub></a><br /><a href="#maintenance-AlanaSampaio" title="Maintenance">🚧</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
