@@ -85,7 +85,7 @@ Já uma matéria que tenha quem dependa dela vai constar como a somatória de qu
 
 ### Contribuindo na árvore
 
-- Abra o projeto na pasta `src/dependency_tree.drawio` no site [Draw.io](https://app.diagrams.net/) com o o seu fork do projeto na pasta. Você precisa logar com sua conta do github no site e clicar em "Abrir diagrama existente"
+- Abra o projeto na pasta `src/[CONSEPE ...].drawio` no site [Draw.io](https://app.diagrams.net/) com o o seu fork do projeto na pasta na resolução que você quer corrigir. Você precisa logar com sua conta do github no site e clicar em "Abrir diagrama existente"
 - Faça as modificações e commite
 - Faça um pull request
 
@@ -99,7 +99,7 @@ Já uma matéria que tenha quem dependa dela vai constar como a somatória de qu
 
 Você pode abrir o projeto no draw.io e fazer a impressão por lá
 
-Também está sendo disponibilizada o pdf da árvore na pasta `src/dependency_tree.pdf`
+Também está sendo disponibilizada o pdf da árvore na pasta `src/[CONSEPE ...].pdf`
 
 ## Como fazer modificações personalizadas
 
