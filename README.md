@@ -16,9 +16,13 @@
 
 Olá! Seja bem-vindo à Árvore de Dependências do Curso de Bacharelado em Engenharia da Computação (ECOMP) da Universidade Estadual de Feira de Santana (UEFS). Essa árvore representa a relação entre as 55 matérias necessárias para concluir a formação como bacharel em Engenharia da Computação.
 
+> Caso você seja calouro e ainda não saiba a importância da correlação entre as matérias, clique [aqui](./docs/materias.md) para entender mais.
+
 ## Aproveitamento do Curso
 
 A árvore de dependências foi criada para auxiliar os alunos a obter um melhor aproveitamento das matérias durante o curso. Ela ajuda a entender quais matérias têm pré-requisitos e como as disciplinas se relacionam, permitindo um planejamento mais eficiente para uma trajetória acadêmica bem-sucedida.
+
+> Ou seja... vai te ajudar a sair da caverna do dragão `;)`
 
 ## Versões Disponíveis
 
